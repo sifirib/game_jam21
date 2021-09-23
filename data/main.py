@@ -15,8 +15,7 @@ from shared import *
 
 # Initialize the pygame
 pygame.init()
-print("Yaay")
-print("Yaay")
+
 
 
 # Create the screen
