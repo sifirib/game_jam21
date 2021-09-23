@@ -127,7 +127,7 @@ class Character(Entity):
                     window.blit(self.sprits["Run"][0][self.counts["run"]//4], (self.vec.x, self.vec.y))
                     self.counts["run"] += 1
                 else:
-                    window.blit(self.sprits["Walk"][0][self.counts["walk"]//4], ((self.rect.x - self.camera.offset.x, self.rect.y - self.camera.offset.y)))
+                    window.blit(self.sprits["Walk"][0][self.counts["walk"]//4], ((self.vec.x, self.vec.y)))
                     self.counts["walk"] += 1
 
             elif self.is_["left"]:
