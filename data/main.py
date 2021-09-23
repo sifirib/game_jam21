@@ -16,6 +16,8 @@ from shared import *
 # Initialize the pygame
 pygame.init()
 print("Yaay")
+print("Yaay")
+
 
 # Create the screen
 main_menu = Menu("main", [1000, 650], "space.png", "background_music.wav", "MOOM", "icon")
